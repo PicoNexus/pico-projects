@@ -1,0 +1,16 @@
+~/src/32bitmicro/PicoNexus/pico-sdk$ git submodule update --init
+Submodule 'lib/btstack' (https://github.com/bluekitchen/btstack.git) registered for path 'lib/btstack'
+Submodule 'lib/cyw43-driver' (https://github.com/georgerobotics/cyw43-driver.git) registered for path 'lib/cyw43-driver'
+Submodule 'lib/lwip' (https://github.com/lwip-tcpip/lwip.git) registered for path 'lib/lwip'
+Submodule 'lib/mbedtls' (https://github.com/Mbed-TLS/mbedtls.git) registered for path 'lib/mbedtls'
+Submodule 'tinyusb' (https://github.com/hathach/tinyusb.git) registered for path 'lib/tinyusb'
+Cloning into '/home/pawel/src/32bitmicro/PicoNexus/pico-sdk/lib/btstack'...
+Cloning into '/home/pawel/src/32bitmicro/PicoNexus/pico-sdk/lib/cyw43-driver'...
+Cloning into '/home/pawel/src/32bitmicro/PicoNexus/pico-sdk/lib/lwip'...
+Cloning into '/home/pawel/src/32bitmicro/PicoNexus/pico-sdk/lib/mbedtls'...
+Cloning into '/home/pawel/src/32bitmicro/PicoNexus/pico-sdk/lib/tinyusb'...
+Submodule path 'lib/btstack': checked out '72ef1732c954d938091467961e41f4aa9b976b34'
+Submodule path 'lib/cyw43-driver': checked out '8ef38a6d32c54f850bff8f189bdca19ded33792a'
+Submodule path 'lib/lwip': checked out '239918ccc173cb2c2a62f41a40fd893f57faf1d6'
+Submodule path 'lib/mbedtls': checked out 'a77287f8fa6b76f74984121fdafc8563147435c8'
+Submodule path 'lib/tinyusb': checked out '86c416d4c0fb38432460b3e11b08b9de76941bf5'
