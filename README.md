@@ -47,7 +47,7 @@ cd build
 cmake ..
 ```
 
-For reference, see the [log of cmake configuring projects](doc/cmake-configure-done.md)
+For reference, see the [log of cmake configuring projects](log/cmake-configure-done.log)
 
 ### Make Step
 
@@ -55,12 +55,12 @@ For reference, see the [log of cmake configuring projects](doc/cmake-configure-d
 cmake build .
 ```
 
-For reference, see the [log of cmake building projects](doc/cmake-configure-done.md)
+For reference, see the [log of cmake building projects](log/cmake-configure-done.log)
 
 ### Build Diagnostics
 
 If CMake configuration fails like this:
-For reference, see the [log of cmake failing to configure](doc/cmake-configure-failed.md),
+For reference, see the [log of cmake failing to configure](log/cmake-configure-failed.log),
 you need to update the submodules in the pico-sdk folder:
 
 ```
@@ -68,6 +68,6 @@ cd ~/src/32bitmicro/PicoNexus/pico-sdk
 git submodule update --init
 ```
 
-For reference, see the [log of git updating sub-modules](doc/git-pico-sdk-submodules-update.md) 
+For reference, see the [log of git updating sub-modules](log/git-pico-sdk-submodules-update.log) 
 
-Now go back to Cofiguration Step
+Once updated, return to the Configuration Step and try again.
