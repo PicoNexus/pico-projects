@@ -4,6 +4,47 @@ Welcome to Pico projects for C and C++ using CMake and the pico-sdk.
 
 Happy coding!
 
+## Devcontainer Setup
+
+To get started with the devcontainer for `pico-projects`, follow these steps:
+
+1. **Clone the Repository**
+
+```bash
+   git clone https://github.com/PicoNexus/pico-projects.git
+```
+
+2. **Open in VS Code**
+
+Open the cloned pico-projects repository in Visual Studio Code.
+
+3. **Open in Devcontainer**
+
+Use the VS Code command palette (Ctrl+Shift+P) and select Remote-Containers: Open Folder in Container.... Choose the pico-projects folder.
+
+4. **Build the Container**
+
+The first time you do this, the container will be built, which may take a few minutes.
+
+5. **Running Scripts**
+
+Once the container is built and running, open a terminal in VS Code (either Bash or Zsh) and run the build script:
+
+```
+./build.sh
+```
+
+
+There are a few other scripts available:
+
+    - clean.sh
+    - build-gcc.sh
+    - run.sh
+
+These scripts will be documented soon.
+
+Note: checkout.sh runs automatically when the container is created, so you don't need to run it manually.
+
 ## Setup
 
 Using Linux or WSL2 will make your experience much more enjoyable.
