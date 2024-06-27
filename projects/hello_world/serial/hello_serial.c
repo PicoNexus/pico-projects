@@ -9,7 +9,9 @@
 #include "pico/stdlib.h"
 
 /* For pritnf */
+#ifdef __clang__
 FILE *const stdout = NULL;
+#endif
 
 int main() {
     stdio_init_all();

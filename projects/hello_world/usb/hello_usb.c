@@ -8,8 +8,10 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
-/* For pritnf */
+/* For pritnf and clang */
+#ifdef __clang__
 FILE *const stdout = NULL;
+#endif
 
 int main() {
     stdio_init_all();
